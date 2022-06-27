@@ -36,7 +36,7 @@ select ename , job from emp where job = 'manager';
 
 
 
-查询薪水不等于5000的员工
+查询薪水不等于5000的员工 ^b33607
 
 ```sql
 select ename , sal from emp where sal <>5000;
