@@ -22,7 +22,7 @@
 	- < br >-------------非标准的单目标签命令，合法
 # 四、简单展示标签
 代码：[Test01](00-resource/Code/HTML/标签命令/web/Test01.html)
-![1](00-resource/assets/JavaWeb/Pasted%20image%2020220706154907.png)
+![](../00-resource/assets/JavaWeb/Pasted%20image%2020220706154907.png)
 ## 1.文字水平居中
 ```html
 <center>Hello World!</center>
