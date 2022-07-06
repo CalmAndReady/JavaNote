@@ -149,13 +149,13 @@ var obj = {"属性名":"值1","属性名2":"值2"}；
 2. DOM由浏览器负责创建
 3. 每当浏览器解析出一个HTML标签时，负责在内存生成一个与之对应的管理对象，这个对象就是DOM对象
 4. 开发人员无权对浏览器内存中的HTML标签进行直接操作如果需要操作则必须得到当前标签对应的DOM对象。开发人员----->dom----->< tr >< /tr >
-![](00-resource/assets/JavaScript/Pasted%20image%2020220705074401.png)
+![](../00-resource/assets/JavaScript/Pasted%20image%2020220705074401.png)
 
 # 八、document对象
 1. document对象被称为文档对象
 2. documetn对象由浏览器生成，负责管理DOM树
 3. document对象帮助开发人员从DOM树得到开发人员需要的DOM对象
-![](00-resource/assets/JavaScript/Pasted%20image%2020220705074604.png)
+![](../00-resource/assets/JavaScript/Pasted%20image%2020220705074604.png)
 # 九、document定位DOM对象三种方式
  ## 1.根据标签的id属性值来定位DOM对象
 ```html
@@ -233,8 +233,8 @@ var domList = document.getElementsByName("张三")
 </body>
 </html>
 ```
-![](00-resource/assets/JavaScript/Pasted%20image%2020220705081145.png)
-![](00-resource/assets/JavaScript/Pasted%20image%2020220705081154.png)
+![](../00-resource/assets/JavaScript/Pasted%20image%2020220705081145.png)
+![](../00-resource/assets/JavaScript/Pasted%20image%2020220705081154.png)
 ## 3.根据标签类型定位DOM对象
 ```html
 <div></div>  类型名"div"
@@ -277,7 +277,7 @@ var domList =   document.getElmentsByTagName("div")
   
 </html>
 ```
-![](00-resource/assets/JavaScript/Snipaste_2022-07-05_08-15-04.png)
+![](../00-resource/assets/JavaScript/Snipaste_2022-07-05_08-15-04.png)
 # 十、DOM对象对于标签操作
 1. DOM对象对于标签操作：通过DOM对象来对标签中属性进行【赋值】与【取值】
 2. 常见的操作属性：
